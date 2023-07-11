@@ -38,6 +38,14 @@ p {
   line-height: 30px;
 }
 
+h3.section-heading,
+p.section-subheading {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-bottom: 10px;
+}
+
 button,
 input[type="submit"] {
   border-radius: 8px;
@@ -85,18 +93,6 @@ input[type="submit"]:hover {
 .hero-img img {
   height: 550px;
   padding-top: 50px;
-}
-
-.featured-products h3,
-.featured-products p,
-.instagram h3,
-.instagram p,
-.newsletter-subscription h3,
-.newsletter-subscription p {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 550px;
-  padding-bottom: 10px;
 }
 
 .product-items {
@@ -170,6 +166,23 @@ input[type="submit"]:hover {
 
 .hot-deal button {
   margin: 0 auto;
+}
+
+.our-story-contents {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.our-story-text {
+  padding-right: 100px;
+}
+
+.our-story-text button {
+  max-width: 400px;
+  margin-top: 20px;
 }
 
 .insta-images {
