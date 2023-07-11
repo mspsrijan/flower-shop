@@ -1,0 +1,227 @@
+/** Global Styles **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  max-width: 1340px;
+  margin: 80px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #272727;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+button,
+input[type="submit"] {
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  padding: 12px 50px;
+  max-width: 200px;
+}
+
+button a,
+input[type="submit"] {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #b33752;
+}
+
+.hero-wrapper {
+  background: rgba(229, 84, 115, 0.1);
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  height: 600px;
+  padding: 0 120px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-img img {
+  height: 550px;
+  padding-top: 50px;
+}
+
+.featured-products h3,
+.featured-products p,
+.instagram h3,
+.instagram p,
+.newsletter-subscription h3,
+.newsletter-subscription p {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 550px;
+  padding-bottom: 10px;
+}
+
+.product-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.product-items .product-item:nth-of-type(1) {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.product-items .product-item:nth-of-type(2) {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.product-items .product-item:nth-of-type(3) {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.product-item {
+  width: 32%;
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.product-item img {
+  width: 250px;
+  margin: 0 auto;
+  padding: 50px 50px 0 50px;
+}
+
+.product-item h6 {
+  background: #fff;
+  text-align: center;
+  color: #272727;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  padding-top: 15px;
+}
+
+.hot-deal-wrapper {
+  background: rgba(229, 84, 115, 0.05);
+  max-width: 100%;
+}
+
+.hot-deal {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  padding: 120px;
+  margin: 0 auto;
+}
+
+.hot-deal-text {
+  padding-right: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  text-align: center;
+}
+
+.hot-deal button {
+  margin: 0 auto;
+}
+
+.insta-images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.insta-images img {
+  width: 24%;
+}
+
+.newsletter-subscription {
+  background-image: url("../images/Rectangle 9.png");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input[type="email"] {
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 400px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+footer {
+  background: #111010;
+  text-align: center;
+  padding: 120px;
+}
+
+footer h3,
+footer p {
+  padding: 10px 0;
+  color: #fff;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+}
